@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.top-nav{
+    position: fixed;
+    float: left;
+    width:100vw;
+}.top-nav img{
+    height: 50px;
+    width: 50px;
+}
+.square {
+    border-radius: 0px;
+  }
+  
+  .jumbotron {
+    background-image: linear-gradient(to right, #007bff, #000);
+    padding-top: 47px;
+    color: #fff;
+  }.scroll-block{
+    height: 1500px;
+  }
+  /* list styles */
+  .listItem-wrap img {
+    width: 250px;
+    /* border-radius: 15px; */
+    height: 200px;
+    object-fit: cover;
+  }
+  .listItem-wrap header {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+  }
+  
+  .listItem-wrap header span {
+    font-size: 0.7rem;
+    background-color: #ffc99700;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  .listItem-wrap footer {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .listItem-wrap footer p:first-child span {
+    color: rgba(0, 0, 0, 0.26);
+    font-weight: 600;
+  }.list-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }.select-list{
+    background-color: #2f00ff93;
+    margin: 20px;
+    border: none;
+    
+  }.main-button{
+    color: red;
+  }.single-user{
+    width: 250px;
+   margin-left: 200px;
+  background-color: #000;
+  }.top-space{
+    height: 100px;
+  }.info-container {
+    display: flex;
+    text-align: center;
+  }.top-wrap{
+    color: red;
+  }.contact-container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 50px;
+text-align: center;
+flex-wrap: wrap; 
+ }.contact-form{
+  width: 100vw;
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  height: 300px;
+  }.contact-input{
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;    
+  }.contact-btn{
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  
