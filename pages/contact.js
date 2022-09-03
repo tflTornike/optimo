@@ -61,7 +61,7 @@ const  Contact = () => {
     required
     minLength="5"
     placeholder="Enter Email"
-    disabled ={name.length < 2 ? true :false}
+    
     />
     </>
     <>
