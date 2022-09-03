@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from "react";
-import { dataList } from "../../data/data";
 import List from "../../components/List";
 import axios  from "axios";
 import Info from "../../components/Info";

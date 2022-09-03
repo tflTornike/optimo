@@ -3,9 +3,9 @@ import { useState } from "react";
 import axios from "axios";
 import {toast} from 'react-toastify'
 const  Contact = () => {
-  const [name,setName]=useState("testte")
-  const [email,setEmail]=useState("test@gmail.com")
-  const [message,setMessage]=useState("testnwusnesekewekwheb")
+  const [name,setName]=useState("")
+  const [email,setEmail]=useState("")
+  const [message,setMessage]=useState("")
   const handleSendMessage =async()=>{
    if(name.length < 2){
   return  toast.error("please enter name")
